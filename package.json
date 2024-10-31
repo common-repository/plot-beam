@@ -1,0 +1,45 @@
+{
+	"name": "plot-beam",
+	"version": "0.1.0",
+	"description": "Example block scaffolded with Create Block tool.",
+	"author": "The WordPress Contributors",
+	"license": "GPL-2.0-or-later",
+	"main": "build/svelte.js",
+	"type": "module",
+	"scripts": {
+		"build": "npm-run-all --sequential wpbuild vitebuild",
+		"wpbuild": "wp-scripts build",
+		"vitebuild": "vite build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start",
+		"dev": "vite",
+		"preview": "vite preview",
+		"check": "svelte-check --tsconfig ./tsconfig.json",
+		"test": "vitest"
+	},
+	"devDependencies": {
+		"@sveltejs/vite-plugin-svelte": "^2.4.2",
+		"@testing-library/jest-dom": "^6.1.2",
+		"@testing-library/svelte": "^4.0.3",
+		"@tsconfig/svelte": "^5.0.0",
+		"@types/d3": "^7.4.0",
+		"@wordpress/scripts": "^26.11.0",
+		"jsdom": "^22.1.0",
+		"svelte": "^4.0.5",
+		"svelte-check": "^3.4.6",
+		"tslib": "^2.6.0",
+		"typescript": "^5.0.2",
+		"vite": "^4.4.5",
+		"vitest": "^0.34.3"
+	},
+	"dependencies": {
+		"@sveltestack/svelte-query": "^1.6.0",
+		"d3": "^7.8.5",
+		"npm-run-all": "^4.1.5",
+		"vitest": "^0.34.3"
+	}
+}

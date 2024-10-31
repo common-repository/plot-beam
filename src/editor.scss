@@ -1,0 +1,88 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-plot-beam {
+	display: flex;
+	justify-content: center;
+
+	.admin-form {
+		width: 538px;
+		height: fit-content;
+		border-radius: 20px;
+		border: 1px solid #eff0f6;
+		background-color: #ffff;
+		display: inline-block;
+	}
+
+	.form-text {
+		width: auto;
+		padding-left: 66px;
+		padding-right: 65px;
+		margin-bottom: 30px;
+	}
+
+	.button-group {
+		width: auto;
+		padding-left: 66px;
+		padding-right: 65px;
+		margin-bottom: 30px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.button {
+		width: 100%;
+		height: 50px;
+		border-radius: 10px;
+		border: 1px solid #eff0f6;
+		background-color: #3bd3d1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		margin-bottom: 10px;
+	}
+
+	.first {
+		padding-top: 44px;
+	}
+
+	.last {
+		margin-bottom: 0;
+	}
+
+	.support {
+		display: block;
+		text-align: center;
+		padding-left: 66px;
+		padding-right: 65px;
+		padding-bottom: 57px;
+	}
+
+	.select-group {
+		width: auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		column-gap: 5px;
+		padding-left: 66px;
+		padding-right: 65px;
+		margin-bottom: 20px;
+	}
+
+	.select {
+		width: auto;
+		padding-left: 66px;
+		padding-right: 65px;
+		margin-bottom: 30px;
+	}
+
+	.notitia {
+		display: block;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+}

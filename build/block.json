@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/plot-beam",
+  "version": "0.1.0",
+  "title": "Plot Beam",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Add a Plot Beam chart",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "plot-beam",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css"
+}
